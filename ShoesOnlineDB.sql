@@ -1,0 +1,10 @@
+CREATE DATABASE ShoesOnlineDB
+USE ShoesOnlineDB
+
+CREATE TABLE TestTable(
+	ID NVARCHAR(100) PRIMARY KEY,
+	Name NVARCHAR(MAX)
+)
+
+INSERT INTO TestTable (ID, Name) VALUES('Lap01', 'MacBook')
+INSERT INTO TestTable (ID, Name) VALUES('Lap02', 'MSI')
